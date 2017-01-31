@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.alex.AlexApplicationTests" time="0.01" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/opt/jdk1.8.0_102/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.102-b14"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/projects"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/projects"/>
+    <property name="java.runtime.version" value="1.8.0_102-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/opt/jdk1.8.0_102/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/home/user/apache-maven-3.3.9/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="3.10.0-514.2.2.el7.x86_64"/>
+    <property name="user.home" value="/home/user"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="/home/user/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/opt/jdk1.8.0_102/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -f /projects/zahlenraten"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_102"/>
+    <property name="java.ext.dirs" value="/opt/jdk1.8.0_102/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/opt/jdk1.8.0_102/jre/lib/resources.jar:/opt/jdk1.8.0_102/jre/lib/rt.jar:/opt/jdk1.8.0_102/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_102/jre/lib/jsse.jar:/opt/jdk1.8.0_102/jre/lib/jce.jar:/opt/jdk1.8.0_102/jre/lib/charsets.jar:/opt/jdk1.8.0_102/jre/lib/jfr.jar:/opt/jdk1.8.0_102/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/home/user/apache-maven-3.3.9"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="initializationError" classname="de.alex.AlexApplicationTests" time="0.01">
+    <error message="Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+	at org.springframework.util.Assert.state(Assert.java:392)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:173)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.processMergedContextConfiguration(SpringBootTestContextBootstrapper.java:133)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:409)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:323)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:277)
+	at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:112)
+	at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:78)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:120)
+	at org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:105)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTestContextManager(SpringJUnit4ClassRunner.java:152)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.<init>(SpringJUnit4ClassRunner.java:143)
+	at org.springframework.test.context.junit4.SpringRunner.<init>(SpringRunner.java:49)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[21:42:36.664 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class de.alex.AlexApplicationTests]
+21:42:36.678 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:42:36.689 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:42:36.709 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [de.alex.AlexApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+21:42:36.729 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.alex.AlexApplicationTests], using SpringBootContextLoader
+21:42:36.733 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [de.alex.AlexApplicationTests]: class path resource [de/alex/AlexApplicationTests-context.xml] does not exist
+21:42:36.734 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [de.alex.AlexApplicationTests]: class path resource [de/alex/AlexApplicationTestsContext.groovy] does not exist
+21:42:36.734 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [de.alex.AlexApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:42:36.735 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [de.alex.AlexApplicationTests]: AlexApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:42:36.791 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [de.alex.AlexApplicationTests]
+21:42:36.802 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:42:36.804 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:42:36.804 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+21:42:36.816 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [de/alex/] to resources [URL [file:/projects/zahlenraten/target/test-classes/de/alex/]]
+21:42:36.816 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/projects/zahlenraten/target/test-classes/de/alex]
+21:42:36.817 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/projects/zahlenraten/target/test-classes/de/alex] for files matching pattern [/projects/zahlenraten/target/test-classes/de/alex/*.class]
+21:42:36.822 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:de/alex/*.class] to resources [file [/projects/zahlenraten/target/test-classes/de/alex/AlexApplicationTests.class]]
+21:42:36.843 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [de/] to resources [URL [file:/projects/zahlenraten/target/test-classes/de/], URL [file:/projects/zahlenraten/target/classes/de/]]
+21:42:36.843 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/projects/zahlenraten/target/test-classes/de]
+21:42:36.843 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/projects/zahlenraten/target/test-classes/de] for files matching pattern [/projects/zahlenraten/target/test-classes/de/*.class]
+21:42:36.844 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/projects/zahlenraten/target/classes/de]
+21:42:36.844 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/projects/zahlenraten/target/classes/de] for files matching pattern [/projects/zahlenraten/target/classes/de/*.class]
+21:42:36.844 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:de/*.class] to resources []
+21:42:36.851 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class de.alex.AlexApplicationTests]
+21:42:36.851 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:42:36.851 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:42:36.852 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [de.alex.AlexApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+21:42:36.853 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [de.alex.AlexApplicationTests], using SpringBootContextLoader
+21:42:36.853 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [de.alex.AlexApplicationTests]: class path resource [de/alex/AlexApplicationTests-context.xml] does not exist
+21:42:36.854 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [de.alex.AlexApplicationTests]: class path resource [de/alex/AlexApplicationTestsContext.groovy] does not exist
+21:42:36.854 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [de.alex.AlexApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:42:36.854 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [de.alex.AlexApplicationTests]: AlexApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:42:36.859 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [de.alex.AlexApplicationTests]
+21:42:36.859 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:42:36.860 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:42:36.860 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+21:42:36.860 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [de/alex/] to resources [URL [file:/projects/zahlenraten/target/test-classes/de/alex/]]
+21:42:36.861 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/projects/zahlenraten/target/test-classes/de/alex]
+21:42:36.861 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/projects/zahlenraten/target/test-classes/de/alex] for files matching pattern [/projects/zahlenraten/target/test-classes/de/alex/*.class]
+21:42:36.861 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:de/alex/*.class] to resources [file [/projects/zahlenraten/target/test-classes/de/alex/AlexApplicationTests.class]]
+21:42:36.863 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [de/] to resources [URL [file:/projects/zahlenraten/target/test-classes/de/], URL [file:/projects/zahlenraten/target/classes/de/]]
+21:42:36.863 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/projects/zahlenraten/target/test-classes/de]
+21:42:36.863 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/projects/zahlenraten/target/test-classes/de] for files matching pattern [/projects/zahlenraten/target/test-classes/de/*.class]
+21:42:36.864 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [/projects/zahlenraten/target/classes/de]
+21:42:36.864 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [/projects/zahlenraten/target/classes/de] for files matching pattern [/projects/zahlenraten/target/classes/de/*.class]
+21:42:36.864 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:de/*.class] to resources []
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/user/.m2/repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/user/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22/slf4j-log4j12-1.7.22.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+]]></system-err>
+  </testcase>
+</testsuite>

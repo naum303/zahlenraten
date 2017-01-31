@@ -1,0 +1,12 @@
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/storage/ScoreKeeperDao.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/SkillContext.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/ZahlenratenConfig.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/ScoreKeeperManager.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/storage/ScoreKeeperRepository.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/storage/ScoreKeeperUserDataItem.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/storage/ScoreKeeperGameData.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/storage/ScoreKeeperGame.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/ScoreKeeperSpeechlet.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/ScoreKeeperSpeechletRequestStreamHandler.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/ScoreKeeperTextUtil.java
+/projects/zahlenraten/src/main/java/de/sayit/skills/zahlenraten/ZahlenratenApplication.java
